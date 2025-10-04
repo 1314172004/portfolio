@@ -1,4 +1,4 @@
-import { Outfit, Ovo} from "next/font/google";
+import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfit.className} ${ovo.className} antialiased`}
+        className={`${outfit.className} ${ovo.className} antialiased leading-9 overflow-x-hidden`}
       >
         {children}
       </body>
