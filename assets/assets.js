@@ -37,6 +37,8 @@ import ui_icon from './ui-icon.png';
 import user_image from './user-image.png';
 import vscode from './vscode.png';
 import web_icon from './web-icon.png';
+import ml from './ml.png';
+import software from './software.png'
 
 
 export const assets = {
@@ -105,10 +107,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web development', description: 'I build fast, responsive, and modern websites using the latest web technologies.', link: '' },
+    { icon: assets.ml, title: 'Machine Learning', description: 'I experiment with machine learning models to create intelligent features and data-driven prototypes that enhance functionality and user insight.', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'I design intuitive, visually engaging interfaces with a strong focus on accessibility, usability, and user-centered design principles.', link: '' },
+    { icon: assets.software, title: 'Software Engineer', description: 'I develop scalable and maintainable software solutions with attention to structure, performance, and clean coding practices.', link: '' },
 ]
 
 export const infoList = [
