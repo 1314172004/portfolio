@@ -19,6 +19,7 @@ import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
+import ml from './ml.png';
 import mobile_icon from './mobile-icon.png';
 import mongodb from './mongodb.png';
 import moon_icon from './moon_icon.png';
@@ -31,14 +32,13 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_white from './right-arrow-white.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
+import software from './software.png';
 import sun_icon from './sun_icon.png';
 import tensor from './tensor.png';
 import ui_icon from './ui-icon.png';
 import user_image from './user-image.png';
 import vscode from './vscode.png';
 import web_icon from './web-icon.png';
-import ml from './ml.png';
-import software from './software.png'
 
 
 export const assets = {
@@ -81,6 +81,8 @@ export const assets = {
     right_arrow_bold_dark,
     tensor,
     powerbi,
+    ml,
+    software,
 };
 
 export const workData = [
@@ -107,7 +109,7 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web development', description: 'I build fast, responsive, and modern websites using the latest web technologies.', link: '' },
+    { icon: assets.web_icon, title: 'Web development', description: 'I build modern, responsive, and high-performance web applications using clean architecture, with a focus on usability,and seamless user experience across all devices.', link: '' },
     { icon: assets.ml, title: 'Machine Learning', description: 'I experiment with machine learning models to create intelligent features and data-driven prototypes that enhance functionality and user insight.', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'I design intuitive, visually engaging interfaces with a strong focus on accessibility, usability, and user-centered design principles.', link: '' },
     { icon: assets.software, title: 'Software Engineer', description: 'I develop scalable and maintainable software solutions with attention to structure, performance, and clean coding practices.', link: '' },
