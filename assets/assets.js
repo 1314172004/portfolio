@@ -22,6 +22,7 @@ import menu_white from './menu-white.png';
 import mobile_icon from './mobile-icon.png';
 import mongodb from './mongodb.png';
 import moon_icon from './moon_icon.png';
+import powerbi from './powerbi.png';
 import profile_img from './profile-img.png';
 import project_icon_dark from './project-icon-dark.png';
 import project_icon from './project-icon.png';
@@ -31,10 +32,12 @@ import right_arrow_white from './right-arrow-white.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import sun_icon from './sun_icon.png';
+import tensor from './tensor.png';
 import ui_icon from './ui-icon.png';
 import user_image from './user-image.png';
 import vscode from './vscode.png';
 import web_icon from './web-icon.png';
+
 
 export const assets = {
     user_image,
@@ -73,7 +76,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    tensor,
+    powerbi,
 };
 
 export const workData = [
@@ -113,5 +118,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.figma, assets.tensor, assets.figma, assets.git
+    assets.vscode, assets.powerbi, assets.tensor, assets.figma, assets.git
 ];
